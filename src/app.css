@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:global(body) {
+    overflow: hidden;
+    user-select: none;
+    color: white;
+}
+
+.window-control-button {
+    @apply hover:bg-zinc-600 p-4;
+}
